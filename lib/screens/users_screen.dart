@@ -1,9 +1,9 @@
+
 import 'package:flutter/material.dart';
-import 'package:linkedin_app/providers/user.dart';
-import 'package:linkedin_app/providers/users.dart';
-import 'package:linkedin_app/widgets/users_list.dart';
-import 'package:linkedin_app/widgets/users_list_item.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/users.dart';
+import '../widgets/users_list.dart';
 
 class UsersScreen extends StatefulWidget {
   static const routeName = '/users-screen';
@@ -45,7 +45,7 @@ class _UsersScreenState extends State<UsersScreen> {
         ),
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       ),
-      body: isLoading ? CircularProgressIndicator() : UsersList(),
+      body: isLoading ? const CircularProgressIndicator() : const UsersList(),
     );
   }
 }

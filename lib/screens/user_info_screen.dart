@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:linkedin_app/providers/users.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/users.dart';
 
 class UserInfoScreen extends StatelessWidget {
   final String userId;

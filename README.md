@@ -1,4 +1,4 @@
-# linkedin_app
+# GT Certificate
 
 A new Flutter project.
 

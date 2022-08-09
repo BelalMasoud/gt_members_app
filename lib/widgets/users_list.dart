@@ -1,7 +1,9 @@
+
 import 'package:flutter/material.dart';
-import 'package:linkedin_app/providers/users.dart';
-import 'package:linkedin_app/widgets/users_list_item.dart';
+import 'users_list_item.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/users.dart';
 
 class UsersList extends StatelessWidget {
   const UsersList({Key? key}) : super(key: key);

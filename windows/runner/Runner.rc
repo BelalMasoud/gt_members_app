@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "linkedin_app" "\0"
+            VALUE "FileDescription", "GT Certificate" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "linkedin_app" "\0"
+            VALUE "InternalName", "GT Certificate" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "linkedin_app.exe" "\0"
-            VALUE "ProductName", "linkedin_app" "\0"
+            VALUE "OriginalFilename", "GT Certificate.exe" "\0"
+            VALUE "ProductName", "GT Certificate" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

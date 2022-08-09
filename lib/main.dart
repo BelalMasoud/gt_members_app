@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:linkedin_app/providers/users.dart';
-import 'package:linkedin_app/screens/user_profile_Screen.dart';
-import 'package:linkedin_app/screens/users_screen.dart';
 import 'package:provider/provider.dart';
+
+import 'providers/users.dart';
+import 'screens/user_profile_screen.dart';
+import 'screens/users_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,11 +19,12 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: ((ctx) => Users())),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
+        title: 'GT Certificate',
         theme: ThemeData(primarySwatch: Colors.teal),
         home: const UsersScreen(),
         routes: {
-          UserProfileScreen.routeName: (ctx) => UserProfileScreen(),
+          UserProfileScreen.routeName: (ctx) => const UserProfileScreen(),
         },
       ),
     );

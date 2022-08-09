@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:linkedin_app/providers/users.dart';
-import 'package:linkedin_app/widgets/experience_element.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/users.dart';
+import '../widgets/experience_element.dart';
 
 class CertificatesScreen extends StatelessWidget {
   final String userId;

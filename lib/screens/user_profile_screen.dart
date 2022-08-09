@@ -1,8 +1,10 @@
+
 import 'package:flutter/material.dart';
-import 'package:linkedin_app/screens/user_certificates_screen.dart';
-import 'package:linkedin_app/screens/user_exams_screen.dart';
-import 'package:linkedin_app/screens/user_experience_screen.dart';
-import 'package:linkedin_app/screens/user_info_screen.dart';
+
+import 'user_certificates_screen.dart';
+import 'user_exams_screen.dart';
+import 'user_experience_screen.dart';
+import 'user_info_screen.dart';
 
 class UserProfileScreen extends StatelessWidget {
   const UserProfileScreen({Key? key}) : super(key: key);

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:linkedin_app/providers/users.dart';
-import 'package:linkedin_app/widgets/exams_element.dart';
-import 'package:linkedin_app/widgets/experience_element.dart';
+
 import 'package:provider/provider.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+
+import '../providers/users.dart';
+import '../widgets/exams_element.dart';
 
 class ExamsScreen extends StatelessWidget {
   final String userId;

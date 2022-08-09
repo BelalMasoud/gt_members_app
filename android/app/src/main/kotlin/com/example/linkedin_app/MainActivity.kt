@@ -1,4 +1,4 @@
-package com.example.linkedin_app
+package tech.gammal.gtcrertificate
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,8 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import './user.dart';
 import 'package:http/http.dart' as http;
+
+import 'user.dart';
 
 class Users with ChangeNotifier {
   List<User> _users = [];

@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import 'user_certificates_screen.dart';
@@ -18,7 +17,11 @@ class UserProfileScreen extends StatelessWidget {
       length: 4,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('User Profile'),
+          foregroundColor: Colors.white,
+          title: const Text(
+            'User Profile',
+            style: TextStyle(color: Colors.white),
+          ),
           bottom: const TabBar(isScrollable: true, tabs: [
             Tab(
               icon: Icon(Icons.account_circle_outlined, size: 15),

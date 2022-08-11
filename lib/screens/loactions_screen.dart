@@ -7,10 +7,12 @@ class LocationsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        foregroundColor: Colors.white,
+      ),
       body: Center(
         child: Container(
-          width: 200,
+          width: 250,
           child: ListWheelScrollView(children: [
             GridTile(
               child: Image.asset(

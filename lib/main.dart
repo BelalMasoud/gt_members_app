@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../screens/loactions_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'providers/users.dart';
@@ -22,7 +23,9 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'GT Certificate',
-        theme: ThemeData(primarySwatch: Colors.teal),
+        theme: ThemeData(
+            primarySwatch: Colors.teal,
+            appBarTheme: AppBarTheme(foregroundColor: Colors.teal)),
         home: AnimatedSplashScreen(
             nextScreen: const UsersScreen(),
             splash: Image.asset("assets/logo.png"),
@@ -30,6 +33,7 @@ class MyApp extends StatelessWidget {
             backgroundColor: Color.fromRGBO(20, 255, 231, 0.498)),
         routes: {
           UserProfileScreen.routeName: (ctx) => const UserProfileScreen(),
+          LocationsScreen.routeName: (ctx) => const LocationsScreen(),
         },
       ),
     );

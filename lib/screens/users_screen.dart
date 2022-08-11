@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:gt_certificate/screens/loactions_screen.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/users.dart';
@@ -35,6 +35,18 @@ class _UsersScreenState extends State<UsersScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawerScrimColor: Colors.teal,
+      drawer: Drawer(
+        child: Column(children: [
+          ListTile(
+            title: Text('Locations'),
+            trailing: Icon(Icons.location_on_rounded),
+            onTap: () {
+              Navigator.of(context).pushNamed(LocationsScreen.routeName);
+            },
+          )
+        ]),
+      ),
       appBar: AppBar(
         elevation: 0.5,
         title: const Text(

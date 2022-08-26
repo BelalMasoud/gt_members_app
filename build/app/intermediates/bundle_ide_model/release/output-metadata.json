@@ -4,7 +4,7 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "tech.gammal.gtcrertificate",
+  "applicationId": "tech.gammal.crertificate",
   "variantName": "release",
   "elements": [
     {

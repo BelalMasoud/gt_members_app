@@ -68,7 +68,7 @@ INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/Androi
 INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
 INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
 	package
-		ADDED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml:2:5-41
+		ADDED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml:2:5-39
 		INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -165,7 +165,7 @@ INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/Androi
 		INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml
-activity#tech.gammal.gtcrertificate.MainActivity
+activity#tech.gammal.crertificate.MainActivity
 ADDED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml:7:9-27:20
 	android:launchMode
 		ADDED from /Users/khaled/Downloads/gt_members_app/android/app/src/main/AndroidManifest.xml:10:13-43

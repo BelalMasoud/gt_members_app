@@ -4,15 +4,15 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "tech.gammal.gtcrertificate",
+  "applicationId": "tech.gammal.crertificate",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 5,
-      "versionName": "1.1.1",
+      "versionCode": 1,
+      "versionName": "1.0.0",
       "outputFile": "AndroidManifest.xml"
     }
   ],

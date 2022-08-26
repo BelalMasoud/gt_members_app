@@ -1,4 +1,4 @@
-package tech.gammal.gtcrertificate
+package tech.gammal.crertificate
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tech.gammal.gtcrertificate">
+    package="tech.gammal.crertificate">
    <application
         android:label="GT Certificate"
         android:name="${applicationName}"
